@@ -1,0 +1,5 @@
+| Arquitetura | Benefícios | Desvantagens |
+| --- | --- | --- |
+| Monolítico | - Alto desempenho e eficiência<br>- Boa integração com hardware<br>- Baixa sobrecarga de comunicação entre os componentes | - Difícil de modificar e atualizar<br>- Problemas de segurança devido ao acesso direto aos recursos do sistema<br>- Falhas em um componente podem afetar todo o sistema |
+| Microkernel | - Flexibilidade para adicionar ou remover componentes<br>- Maior confiabilidade devido à modularidade<br>- Maior segurança devido à comunicação interprocessos | - Overhead de comunicação entre os componentes<br>- Pode ser mais lento devido à necessidade de comunicação interprocessos<br>- Complexidade de projeto e implementação |
+| Híbrido | - Melhor desempenho em relação ao microkernel<br>- Modularidade para adicionar ou remover componentes<br>- Maior segurança em relação ao sistema monolítico | - Complexidade de projeto e implementação<br>- Dependência de drivers e hardware específicos<br>- Pode ser mais difícil de depurar e testar |
